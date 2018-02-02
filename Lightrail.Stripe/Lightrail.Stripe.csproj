@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <PackageId>Lightrail-Stripe</PackageId>
+    <Authors>Lightrail</Authors>
+    <Description>A .NET library for creating Lightrail-Stripe integrated applications.</Description>
+    <PackageLicenseUrl>https://github.com/Giftbit/lightrail-stripe-dotnet/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Giftbit/lightrail-stripe-dotnet</PackageProjectUrl>
+    <PackageTags>lightrail;stripe;currency</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lightrail-Client" Version="0.0.1" />
+    <PackageReference Include="Stripe.net" Version="12.1.0" />
+  </ItemGroup>
+
+</Project>
