@@ -11,7 +11,7 @@ Lightrail integration with Stripe
 `dotnet build`
 
 ### Unit Testing
-- `dotnet test`
+`dotnet test`
 
 ### Building Test Packages
 - (once) install [nuget](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#cli-tools)
