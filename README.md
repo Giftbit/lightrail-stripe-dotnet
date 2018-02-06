@@ -25,4 +25,6 @@ Lightrail integration with Stripe
 ### Releasing
 - bump the PackageVersion appropriately in `Lightrail.Stripe/Lightrail.Stripe.csproj`
 - create the nuget package with `dotnet pack -c Release`
-- upload to nuget.org as per https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package
+- generate and copy a [nuget api key](https://www.nuget.org/account/ApiKeys)
+- publish to nuget `dotnet nuget push Lightrail/bin/Release/Lightrail-Client.<version>.nupkg -s https://api.nuget.org/v3/index.json -k <apikey>`
+- delete the [nuget api key](https://www.nuget.org/account/ApiKeys)

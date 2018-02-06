@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageVersion>0.0.1</PackageVersion>
+    <PackageVersion>1.0.0</PackageVersion>
     <PackageId>Lightrail-Stripe</PackageId>
     <Authors>Lightrail</Authors>
     <Description>A .NET library for creating Lightrail-Stripe integrated applications.</Description>
@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lightrail-Client" Version="0.0.1" />
+    <PackageReference Include="Lightrail-Client" Version="1.0.0" />
     <PackageReference Include="Stripe.net" Version="12.1.0" />
   </ItemGroup>
 
