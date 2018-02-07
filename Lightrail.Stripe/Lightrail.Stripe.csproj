@@ -8,6 +8,7 @@
     <Description>A .NET library for creating Lightrail-Stripe integrated applications.</Description>
     <PackageLicenseUrl>https://github.com/Giftbit/lightrail-stripe-dotnet/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Giftbit/lightrail-stripe-dotnet</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/Giftbit/lightrail-stripe-dotnet/master/Lightrail.Stripe/rsc/PackageIcon64x64.png</PackageIconUrl>
     <PackageTags>lightrail;stripe;currency</PackageTags>
   </PropertyGroup>
 
